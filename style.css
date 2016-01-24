@@ -1,0 +1,42 @@
+body {
+    background: white;
+    font-size: xx-large;
+    transition: all 0.5s ease;
+}
+
+a:link, a:visited, body {
+    color: green;
+}
+
+.panels {
+    width:100%;
+}
+.panel {
+    float:left;
+    width:33%;
+}
+.clear {
+    clear:both;
+}
+.stateLine {
+    margin: 0 0;
+    font-size: medium;
+}
+
+.stateLine span, a {
+    padding:10px;
+}
+
+h2,h3,h1 {
+    margin: 0;
+}
+
+li {
+list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.item { margin-top:0.5em}
