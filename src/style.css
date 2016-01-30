@@ -6,6 +6,7 @@ body {
 
 a:link, a:visited, body {
     color: green;
+//    color: red;
 }
 
 .panels {

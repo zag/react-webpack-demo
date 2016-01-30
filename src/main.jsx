@@ -1,4 +1,4 @@
-require("!style!css!../style.css");
+require("./style.css");
 import React from 'react';
 import {render} from 'react-dom';
 import PanelComponent from './PanelComponent.jsx';
@@ -63,7 +63,7 @@ class App extends React.Component {
     <form onSubmit={ this.onSubmit }>
     <input  ref="taskText" type="text"  id="newtask" size="50" placeholder="Текст новой задачи <Enter>"/>
     </form>
-            <PanelComponent title="Ожидание" items={this.state.wait}/>
+            <PanelComponent title="Ожидание6" items={this.state.wait}/>
             <PanelComponent title="В процессе" items={this.state.progress}/>
             <PanelComponent title="Завершено" items={this.state.complete}/>
             <div className="clear"></div>
