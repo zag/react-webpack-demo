@@ -1,13 +1,13 @@
 {
   "name": "trello-light",
   "version": "1.0.0",
-  "description": "Mini todo
+  "description": "Mini todo",
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
     "build": "./node_modules/.bin/webpack -p"
   },
-  "author": "Alex Zahatski
+  "author": "Alex Zahatski",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.4.5",
